@@ -4,7 +4,7 @@ import pandas as pd
 import altair as alt
 from utils import load_and_prep, get_classes
 
-@st.cache(suppress_st_warning=True)
+@st.cache_resource
 def predicting(image, model):
     image = load_and_prep(image)
     image = tf.cast(tf.expand_dims(image, axis=0), tf.int16)
