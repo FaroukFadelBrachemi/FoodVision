@@ -1,6 +1,5 @@
-
-altair==4.1.0
-tensorflow==2.5.0
-streamlit==0.79.0
-pandas==1.0.1
-numpy==1.19.5
+altair==4.2.2
+tensorflow==2.16.0
+streamlit==1.18.0
+pandas==1.5.3
+numpy==1.23.5
