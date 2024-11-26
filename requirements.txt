@@ -1,5 +1,5 @@
 altair
-tensorflow
+tensorflow==2.16.1
 streamlit
 pandas
 numpy
