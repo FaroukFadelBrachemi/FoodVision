@@ -1,5 +1,5 @@
 altair==4.2.2
-tensorflow==2.16.0
+tensorflow==2.16.1
 streamlit==1.18.0
 pandas==1.5.3
 numpy==1.23.5
