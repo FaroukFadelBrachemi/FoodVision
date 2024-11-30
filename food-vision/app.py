@@ -31,11 +31,12 @@ st.set_page_config(page_title="Food Vision",
 
 st.sidebar.title("What's Food Vision ?")
 st.sidebar.write("""
-FoodVision is an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
 
-It can identify over 100 different food classes.
+FoodVision is a **CNN Image Classification Model** that classifies images into **101 food** categories using the **Food101 dataset**. 
 
-It is based upon a pre-trained Image Classification Model that comes with Keras and then retrained on the famous **Food101 Dataset**.
+It can identify 101 different food classes.
+
+It is based upon a pre-trained Model that has been fine-tuned on the **Food101 Dataset**.
 
 **Accuracy :** **`85%`**
 
@@ -55,7 +56,7 @@ file = st.file_uploader(label="Upload an image of food.",
 
 
 model = tf.keras.models.load_model("./models/EfficientNetB1.hdf5")
-
+st.sidebar.markdown('**Contact**')
 st.sidebar.markdown("""
     <table>
         <tr>
@@ -79,7 +80,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.sidebar.markdown("Made with ❤️")
+st.sidebar.markdown("**Made with ❤️**")
 
 if not file:
     st.warning("Please upload an image")
