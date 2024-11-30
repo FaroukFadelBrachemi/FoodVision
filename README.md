@@ -21,7 +21,7 @@ The Accuracy aquired by DeepFood was **77.4%** and our model's **85%** . Differe
 
 ### Check the [deployed app](https://foodvision-ledafarouk.streamlit.app/)
 
-[https://user-images.githubusercontent.com/57211163/214333702-7a666c70-3499-470d-8b39-fc37374950ab.mp4](https://github.com/faroukbrachemi/FoodVision/blob/main/Extras/app_video.mp4)
+[https://github.com/faroukbrachemi/FoodVision/blob/main/Extras/app_video.mp4]
 
 Once an app is loaded, 
 
