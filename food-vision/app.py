@@ -84,7 +84,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.sidebar.markdown("**Made with ❤️**")
+st.sidebar.markdown("**made with ❤️**")
 
 if not file:
     st.warning("Please upload an image")
