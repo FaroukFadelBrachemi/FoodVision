@@ -81,5 +81,5 @@ At first glance the files in the repo may look intimidating and overwhelming. To
 * `extras/`  : contains images and files used to write this README File
 
 
-######                                             *Inspired by **['Daniel Bourke's Course'] (https://github.com/mrdbourke/tensorflow-deep-learning/)*
+######                                             *Inspired by **[Daniel Bourke's Course](https://github.com/mrdbourke/tensorflow-deep-learning/)** *
 
