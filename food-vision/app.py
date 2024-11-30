@@ -56,27 +56,17 @@ file = st.file_uploader(label="Upload an image of food.",
 
 
 model = tf.keras.models.load_model("./models/EfficientNetB1.hdf5")
-st.sidebar.markdown('**Contact**')
+st.sidebar.markdown('### Contact')
 st.sidebar.markdown("""
-    <table>
-        <tr>
-            <th style="border:None">
-                <a href="https://kaggle.com/faroukfadelbrachemi" target="blank">
-                    <img align="center" src="https://shorturl.at/LlbEa" alt="faroukfadelbrachemi" height="40" width="40" />
-                </a>
-            </th>
-            <th style="border:None">
-                <a href="https://linkedin.com/in/farouk-brachemi" target="blank">
-                    <img align="center" src="https://bit.ly/3wCl82U" alt="faroukbrachemi" height="40" width="40" />
-                </a>
-            </th>
-            <th style="border:None">
-                <a href="https://github.com/faroukbrachemi" target="blank">
-                    <img align="center" src="https://shorturl.at/Nj7gk" alt="faroukbrachemi" height="40" width="40" />
-                </a>
-            </th>
-        </tr>
-    </table>
+    <a href="https://kaggle.com/faroukfadelbrachemi" target="blank">
+        <img src="https://shorturl.at/LlbEa" alt="faroukfadelbrachemi" height="40" width="40" />
+    </a>
+    <a href="https://linkedin.com/in/farouk-brachemi" target="blank">
+        <img src="https://bit.ly/3wCl82U" alt="faroukbrachemi" height="40" width="40" />
+    </a>
+    <a href="https://github.com/faroukbrachemi" target="blank">
+        <img src="https://shorturl.at/Nj7gk" alt="faroukbrachemi" height="40" width="40" />
+    </a>
 """, unsafe_allow_html=True)
 
 
