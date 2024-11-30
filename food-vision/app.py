@@ -33,9 +33,9 @@ st.sidebar.title("What's Food Vision ?")
 st.sidebar.write("""
 FoodVision is an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
 
-It can identify over 100 different food classes
+It can identify over 100 different food classes.
 
-It is based upom a pre-trained Image Classification Model that comes with Keras and then retrained on the infamous **Food101 Dataset**.
+It is based upon a pre-trained Image Classification Model that comes with Keras and then retrained on the famous **Food101 Dataset**.
 
 **Accuracy :** **`85%`**
 
@@ -49,23 +49,19 @@ It is based upom a pre-trained Image Classification Model that comes with Keras 
 
 st.title("Food Vision 🍔📷")
 st.header("Identify what's in your food photos!")
-st.write("To know more about this app, visit [**GitHub**](https://github.com/faroukbrachemi/FoodVision)")
+st.write("Check 👉 [**GitHub Repo**](https://github.com/faroukbrachemi/FoodVision)")
 file = st.file_uploader(label="Upload an image of food.",
                         type=["jpg", "jpeg", "png"])
 
 
 model = tf.keras.models.load_model("./models/EfficientNetB1.hdf5")
 
-
-
-import streamlit as st
-
-st.markdown("""
+st.sidebar.markdown("""
     <table>
         <tr>
             <th style="border:None">
                 <a href="https://kaggle.com/faroukfadelbrachemi" target="blank">
-                    <img align="center" src="extras/kaggle.png" alt="faroukfadelbrachemi" height="40" width="40" />
+                    <img align="center" src="https://shorturl.at/LlbEa" alt="faroukfadelbrachemi" height="40" width="40" />
                 </a>
             </th>
             <th style="border:None">
@@ -75,7 +71,7 @@ st.markdown("""
             </th>
             <th style="border:None">
                 <a href="https://github.com/faroukbrachemi" target="blank">
-                    <img align="center" src="https://bit.ly/3c2onZS" alt="faroukbrachemi" height="40" width="40" />
+                    <img align="center" src="https://shorturl.at/Nj7gk" alt="faroukbrachemi" height="40" width="40" />
                 </a>
             </th>
         </tr>
