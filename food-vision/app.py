@@ -60,7 +60,7 @@ model = tf.keras.models.load_model("./models/EfficientNetB1.hdf5")
 st.sidebar.markdown("Created by **Gaurav Reddy**")
 st.sidebar.markdown(body="""
 
-<th style="border:None"><a href="https://kaggle.com/faroukfadelbrachemi" target="blank"><img align="center" src="https://bit.ly/3wK17I6" alt="faroukfadelbrachemi" height="40" width="40" /></a></th>
+<th style="border:None"><a href="https://kaggle.com/faroukfadelbrachemi" target="blank"><img align="center" src="extras/kaggle.png" alt="faroukfadelbrachemi" height="40" width="40" /></a></th>
 <th style="border:None"><a href="https://linkedin.com/in/farouk-brachemi" target="blank"><img align="center" src="https://bit.ly/3wCl82U" alt="faroukbrachemi" height="40" width="40" /></a></th>
 <th style="border:None"><a href="https://github.com/faroukbrachemi" target="blank"><img align="center" src="https://bit.ly/3c2onZS" alt="faroukbrachemi" height="40" width="40" /></a></th>
 
