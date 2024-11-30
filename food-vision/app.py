@@ -49,7 +49,7 @@ It is based upom a pre-trained Image Classification Model that comes with Keras 
 
 st.title("Food Vision 🍔📷")
 st.header("Identify what's in your food photos!")
-st.write("To know more about this app, visit [**GitHub**](https://github.com/gauravreddy08/food-vision)")
+st.write("To know more about this app, visit [**GitHub**](https://github.com/faroukbrachemi/FoodVision)")
 file = st.file_uploader(label="Upload an image of food.",
                         type=["jpg", "jpeg", "png"])
 
@@ -60,10 +60,10 @@ model = tf.keras.models.load_model("./models/EfficientNetB1.hdf5")
 st.sidebar.markdown("Created by **Gaurav Reddy**")
 st.sidebar.markdown(body="""
 
-<th style="border:None"><a href="https://twitter.com/gaurxvreddy" target="blank"><img align="center" src="https://bit.ly/3wK17I6" alt="gaurxvreddy" height="40" width="40" /></a></th>
-<th style="border:None"><a href="https://linkedin.com/in/gauravreddy08" target="blank"><img align="center" src="https://bit.ly/3wCl82U" alt="gauravreddy08" height="40" width="40" /></a></th>
-<th style="border:None"><a href="https://github.com/gauravreddy08" target="blank"><img align="center" src="https://bit.ly/3c2onZS" alt="16034820" height="40" width="40" /></a></th>
-<th style="border:None"><a href="https://instagram.com/gaurxv_reddy" target="blank"><img align="center" src="https://bit.ly/3oZABHZ" alt="gaurxv_reddy" height="40" width="40" /></a></th>
+<th style="border:None"><a href="https://kaggle.com/faroukfadelbrachemi" target="blank"><img align="center" src="https://bit.ly/3wK17I6" alt="faroukfadelbrachemi" height="40" width="40" /></a></th>
+<th style="border:None"><a href="https://linkedin.com/in/farouk-brachemi" target="blank"><img align="center" src="https://bit.ly/3wCl82U" alt="faroukbrachemi" height="40" width="40" /></a></th>
+<th style="border:None"><a href="https://github.com/faroukbrachemi" target="blank"><img align="center" src="https://bit.ly/3c2onZS" alt="faroukbrachemi" height="40" width="40" /></a></th>
+
 
 """, unsafe_allow_html=True)
 
