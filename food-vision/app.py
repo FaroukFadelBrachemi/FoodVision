@@ -43,18 +43,48 @@ class_names = get_class_names()
 # Sidebar
 st.sidebar.title("What's Food Vision?")
 st.sidebar.write("""
-FoodVision is a **CNN Image Classification Model** that classifies images into **101 food** categories using the **Food101 dataset**.
 
-**Accuracy:** **`85%`**
-**Model:** **`EfficientNetB1`**
-**Dataset:** **`Food101`**
+FoodVision is a **CNN Image Classification Model** that classifies images into **101 food** categories using the **Food101 dataset**. 
+
+It can identify 101 different food classes.
+
+It is based upon a pre-trained Model that has been fine-tuned on the **Food101 Dataset**.
+
+**Accuracy :** **`85%`**
+
+**Model :** **`EfficientNetB1`**
+
+**Dataset :** **`Food101`**
 """)
 st.sidebar.markdown("### Contact")
 st.sidebar.markdown("""
-<a href="https://kaggle.com/faroukfadelbrachemi" target="_blank"><img src="https://shorturl.at/LlbEa" height="40"></a>
-<a href="https://linkedin.com/in/farouk-brachemi" target="_blank"><img src="https://bit.ly/3wCl82U" height="40"></a>
-<a href="https://github.com/faroukbrachemi" target="_blank"><img src="https://shorturl.at/Nj7gk" height="40"></a>
+    <style>
+        table {border: none; border-collapse: collapse;}
+        th, td {border: none; padding: 0;}
+    </style>
+    <table>
+        <tr>
+            <th style="border:None">
+                <a href="https://kaggle.com/faroukfadelbrachemi" target="blank">
+                    <img align="center" src="https://shorturl.at/LlbEa" alt="faroukfadelbrachemi" height="40" width="40" />
+                </a>
+            </th>
+            <th style="border:None">
+                <a href="https://linkedin.com/in/farouk-brachemi" target="blank">
+                    <img align="center" src="https://bit.ly/3wCl82U" alt="faroukbrachemi" height="40" width="40" />
+                </a>
+            </th>
+            <th style="border:None">
+                <a href="https://github.com/faroukbrachemi" target="blank">
+                    <img align="center" src="https://shorturl.at/Nj7gk" alt="faroukbrachemi" height="40" width="40" />
+                </a>
+            </th>
+        </tr>
+    </table>
 """, unsafe_allow_html=True)
+
+
+st.sidebar.markdown("**made with ❤️**")
 
 # Main
 st.title("Food Vision 🍔📷")
